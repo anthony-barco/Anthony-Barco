@@ -1,4 +1,4 @@
-### Hi there 👋
+### Anthony Barco 👋
 
 <!--
 **anthony-barco/Anthony-Barco** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
