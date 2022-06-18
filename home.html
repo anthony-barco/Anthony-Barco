@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Mi Página web</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+        <script src='main.js'></script>
+        
+    </head>
+
+<body>  
+    <nav id="navbar" class="navbar bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <div>
+                    <img src="imagenes/foto_perfil.jpeg" height="10%" width="10%" alt=".">
+                </div>
+            ANTHONY BARCO 
+            <span>DAWM</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                            <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
+                        </svg>
+                        Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="user_details.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                        </svg>
+                        User Details</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="setting.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+                                <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
+                                <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
+                            </svg>
+                            Settings</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </nav>
+    
+    <main>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                            <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
+                        </svg>
+                        Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="user_details.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                        </svg>
+                        User Details</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="setting.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+                                <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
+                                <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
+                            </svg>
+                            Settings</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <div class="container col-sm-6" id="cuadros" >
+            <div class="row">
+                <div class="card col-4" id="AP">
+                    <div class="card-body" >
+                        <p>
+                            MATERIAS APROBADAS
+                            <span>24</span>
+                        </p>
+                        <i>@</i>
+                        
+                    </div>
+                </div>  
+
+                <div class="card col-4" id="carrera">
+                    <div class="card-body" >
+                        <p>
+                            ING. EN CIENCIAS COMPUTACIONALES
+                        </p>
+                        <i>@</i>
+                    </div>
+                </div> 
+
+                <div  class="card col-4" id="activo">
+                    <div class="card-body" >
+                        <p>
+                            ACTIVO
+                            <span>PAO I 2022</span>
+                        </p>
+                        <i>@</i>
+                    </div>
+                </div> 
+
+                <div class="map col-8">
+                    <div>
+                        <h3>MAPA</h3>
+                        <div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15948.128908913166!2d-79.97522049999999!3d-2.14133275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sec!4v1654526898809!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>    
+                    </div>
+                </div>
+
+                <div  class="card col-4" id="graphic">
+                    <div class="card-body" >
+                        <p>
+                            PORCENTAJE DE CARRERA AVANZADO
+                        </p>
+                    </div>
+                    <div id="pastel"></div>
+                </div>
+            </div>
+
+            <div>
+                <p>Materias Término 2021</p>
+                <div  class="table-responsive-lg"></div>
+                    <table class="table table-striped table-hover" id="materias">
+                        <tbody role="alert" aria-live="polite" aria-relevant="all">
+                            <tr class="gradeA even">
+                                <td style="width:20px;" class="  sorting_1">2021-0   </td><td style="width:25px;" class=" ">ADMG1005  </td><td class=" ">EMPRENDIMIENTO E INNOVACIÓN</td><td style="width:15px;" class=" ">8,67</td><td style="width:15px;" class=" ">1</td><td style="width:25px;" class=" ">Aprobada</td>
+                            </tr><tr class="gradeA odd">
+                                <td style="width:20px;" class="  sorting_1">2021-1   </td><td style="width:25px;" class=" ">ADSG1026  </td><td class=" ">CIENCIAS DE LA SOSTENIBILIDAD</td><td style="width:15px;" class=" ">7,75</td><td style="width:15px;" class=" ">1</td><td style="width:25px;" class=" ">Aprobada</td>
+                            </tr><tr class="gradeA even">
+                                <td style="width:20px;" class="  sorting_1">2021-1   </td><td style="width:25px;" class=" ">CCPG1049  </td><td class=" ">ORGANIZACIÓN DE COMPUTADORES</td><td style="width:15px;" class=" ">8,11</td><td style="width:15px;" class=" ">1</td><td style="width:25px;" class=" ">Aprobada</td>
+                            </tr><tr class="gradeA odd">
+                                <td style="width:20px;" class="  sorting_1">2021-1   </td><td style="width:25px;" class=" ">CCPG1053  </td><td class=" ">SEGURIDAD DE LA INFORMACIÓN</td><td style="width:15px;" class=" ">7,58</td><td style="width:15px;" class=" ">1</td><td style="width:25px;" class=" ">Aprobada</td>
+                            </tr><tr class="gradeA even">
+                                <td style="width:20px;" class="  sorting_1">2021-2   </td><td style="width:25px;" class=" ">CCPG1041  </td><td class=" ">DIRECCIÓN DE PROYECTOS INFORMÁTICOS</td><td style="width:15px;" class=" ">6,27</td><td style="width:15px;" class=" ">1</td><td style="width:25px;" class=" ">Aprobada</td>
+                            </tr><tr class="gradeA odd">
+                                <td style="width:20px;" class="  sorting_1">2021-2   </td><td style="width:25px;" class=" ">TLMG1032  </td><td class=" ">REDES DE DATOS</td><td style="width:15px;" class=" ">7,66</td><td style="width:15px;" class=" ">1</td><td style="width:25px;" class=" ">Aprobada</td>
+                            </tr><tr class="gradeA even">
+                                <td style="width:20px;" class="  sorting_1">2021-2   </td><td style="width:25px;" class=" ">CCPG1054  </td><td class=" ">SISTEMAS DE INFORMACIÓN</td><td style="width:15px;" class=" ">6,99</td><td style="width:15px;" class=" ">1</td><td style="width:25px;" class=" ">Aprobada</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="/docs/5.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@stackblitz/sdk@1/bundles/sdk.umd.js"></script>
+    <script src="/docs/5.2/assets/js/docs.min.js"></script>
+
+</body>
+</html>
