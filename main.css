@@ -1,0 +1,55 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    
+}
+#navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+ }
+
+main{
+    background-color: #FFFFFF;
+}
+
+img, iframe{
+    max-width: 100%;
+    width: 80%;
+}
+
+img.perfil{
+    max-width: 60px;
+}
+
+svg{
+    width: auto;
+    height: auto;
+}
+
+#cuadros, #contenedor{
+    gap:10px 10px
+}
+
+#activo, #grafico{
+    width: 31%;
+}
+#carrera{
+    width: 32%;
+}
+
+#ulnav li:hover{
+    background-color: rgba(140, 34, 34, 0.723);
+    text-shadow: 1px 1px 2px black;
+}
+
+@media (max-width: 992px) {
+    #prueba{
+        display: none;
+    }
+    #activo, #grafico{
+        width: 100%;
+    }
+    #carrera{
+        width: 100%;
+    }
+}
